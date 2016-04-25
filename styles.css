@@ -1,1 +1,97 @@
 /* Styles for the Advanced Markup assignment. */
+
+nav ul li {
+  display:inline;
+}
+
+a.active {
+  font-weight:bold;
+}
+#sidebar {
+  width: 250px;
+  float:right;
+  background:yellowgreen;
+  margin: 20px;
+  padding: 10px;
+}
+#sidebar {
+    border: 3px double #ccc;
+    padding: 0.5em;
+  }
+  dt {
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: right;
+    font-weight: bold;
+    color: black;
+  }
+  dt:after {
+    content: ":";
+  }
+  dd {
+    margin: 0 0 0 110px;
+    padding: 0 0 0.5em 0;
+  }
+
+
+section#content {
+}
+.poem {
+  list-style-type: none;
+  font-family: smalltext;
+}
+.poem li {
+  font-size: medium;
+  line-height: 1.0;
+  charset="utf-8"
+}
+.poem::first-letter {
+    font-size: 300%;
+    color: black;
+}
+.poem p {
+    text-indent: 50px;
+    
+}
+.poem::first-line {
+    text-indent: 30px;
+}
+
+.bio-photo {
+  padding: 1rem;
+  PADDING-LEFT: 25px;
+  font-style: italic;
+}
+p { 
+   text-indent: 30px;
+}
+.top-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgrey;
+    font-size: 125%;
+}
+
+
+
+header {
+  background: lightslategray;
+  padding: 1rem; 
+}
+
+
+div {
+    width: 300px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
+}
+
+
+
+
+
+
